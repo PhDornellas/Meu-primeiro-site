@@ -1,0 +1,116 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+header{
+  padding-bottom: 30px;
+}
+
+body {
+  background-color: rgb(214, 213, 213);
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  font-family: sans-serif;
+  margin-top: 20px;
+  color: black;
+
+}
+
+.logo {
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.nav-itens {
+  list-style: none;
+  display: flex;
+}
+
+.nav-itens li a {
+  padding-left: 20px;
+  padding-right: 10px;
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+nav li a:hover{
+  color:#9ab664;
+  transition: linear .3s;
+}
+
+
+
+/* FIM Cabeçalho*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
+
+  .contato{
+    background-color: #4731d4;/*#4731d4*/
+    color: #ccf281; /*#ccf281*/
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+  }
+
+  article {
+    background-color: #4731d4;
+    padding: 30px 60px;
+    margin: 5px;
+    flex: 200px;
+    
+  }
+  section{
+    display: flex;
+    flex-direction:row-reverse; 
+    
+  }
+
+  .titulos{
+    text-align: left;
+    color:  #ccf281;
+  }
+
+  .link{
+    color: white;
+  }
+
+  .link>a{
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+  }
+
+  .rodape {
+    color: black;
+    background-color: #3c2ab4;
+    bottom: 0px;
+    width: 100%;
+    position: fixed;
+    padding: 5px;
+}
+
+.div-rodape {
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.div-rodape p {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+  

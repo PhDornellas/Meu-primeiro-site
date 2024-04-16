@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    padding-bottom: 30px;
+}
+
+body {
+    background-color: rgb(214, 213, 213);
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    font-family: sans-serif;
+    margin-top: 20px;
+    color: black;
+
+}
+
+.logo {
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.nav-itens {
+    list-style: none;
+    display: flex;
+}
+
+.nav-itens>li>a {
+    padding-left: 20px;
+    padding-right: 10px;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+nav li a:hover{
+    color:#9ab664;
+    transition: linear .3s;
+  }
+
+
+/* FIM cabeçalho*/
+
+.sobremim{
+    background-color: #4731d4;
+    color: #ccf281;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+}
+
+section{
+    background-color: #4731d4;
+    flex-direction:column ;
+
+}
+
+article{
+    color:white;
+    padding: 15px 30px;
+    margin: 5px;
+}
+
+p{
+    padding: 5px;
+    margin: 10px;
+    font-size: large;
+    text-align: left;
+    text-align: justify;
+}
+.rodape {
+    color: white;
+    background-color: #3c2ab4;
+    bottom: 0px;
+    width: 100%;
+    position: fixed;
+    padding: 5px;
+}
+
+.div-rodape {
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.div-rodape p {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
